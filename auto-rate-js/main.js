@@ -1,13 +1,1 @@
-//Hãy bật tab đánh giá giảng viên sau đó mới chạy code này !
-function rateAll(){
-      rate = {}
-      document.querySelectorAll('input').forEach(function(input){
-            rate[parseInt(input.id.split('_')[0])] = parseInt(input.id.split('_')[1])
-      })
-      for(var id_rate in rate){
-            if(isNaN(id_rate) == false){
-                  document.getElementById(+id_rate+"_"+rate[id_rate]).checked = true
-            }
-      }
-}
-console.log("Đã cài đặt hàm auto đánh giá rateAll thành công !")
+var _0xfced=["\x5F","\x73\x70\x6C\x69\x74","\x69\x64","\x66\x6F\x72\x45\x61\x63\x68","\x69\x6E\x70\x75\x74","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x63\x68\x65\x63\x6B\x65\x64","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\u0110\xE3\x20\x63\xE0\x69\x20\u0111\u1EB7\x74\x20\x68\xE0\x6D\x20\x61\x75\x74\x6F\x20\u0111\xE1\x6E\x68\x20\x67\x69\xE1\x20\x72\x61\x74\x65\x41\x6C\x6C\x20\x74\x68\xE0\x6E\x68\x20\x63\xF4\x6E\x67\x20\x21","\x6C\x6F\x67"];function rateAll(){rate= {};document[_0xfced[5]](_0xfced[4])[_0xfced[3]](function(_0x671ex2){rate[parseInt(_0x671ex2[_0xfced[2]][_0xfced[1]](_0xfced[0])[0])]= parseInt(_0x671ex2[_0xfced[2]][_0xfced[1]](_0xfced[0])[1])});for(var _0x671ex3 in rate){if(isNaN(_0x671ex3)== false){document[_0xfced[7]](+_0x671ex3+ _0xfced[0] + rate[_0x671ex3])[_0xfced[6]]= true}}}console[_0xfced[9]](_0xfced[8])
