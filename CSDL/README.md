@@ -1,0 +1,1 @@
+# Ứng dụng tìm bao đóng, phủ tối thiểu và kiểm tra cặp tập PTH tương đương môn Thiết kế CSDL
